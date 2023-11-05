@@ -1,0 +1,586 @@
+/* animations for the smooth floating of pictures */
+
+.images{
+    position: fixed;
+    border-radius: 40%;
+    width: 90px;
+    height: 90px;
+    opacity: 0;
+    z-index: 0;
+}
+
+#pic1{
+    animation-name: anime1;
+    animation-duration: 10s;
+    animation-delay: 4s;
+    padding: 1.5px;
+    animation-timing-function: linear;
+}
+
+#pic2{
+    animation-name: anime2;
+    animation-duration: 10s;
+    animation-delay: 4s;
+    padding: 1.5px;
+    animation-timing-function: linear;
+}
+
+#pic3{
+    animation-name: anime3;
+    animation-duration: 10s;
+    animation-delay: 4s;
+    padding: 1.5px;
+    animation-timing-function: linear;
+}
+
+#pic4{
+    animation-name: anime4;
+    animation-duration: 10s;
+    animation-delay: 10s;
+    padding: 1.5px;
+    animation-timing-function: linear;
+}
+
+#pic5{
+    animation-name: anime5;
+    animation-duration: 10s;
+    animation-delay: 10s;
+    padding: 1.5px;
+    animation-timing-function: linear;
+}
+
+#pic6{
+    animation-name: anime6;
+    animation-duration: 10s;
+    padding: 1.5px;
+    animation-timing-function: linear;
+    animation-delay: 10s;
+}
+
+#pic7{
+    animation-name: anime7;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    padding: 1.5px;
+    animation-delay: 10s;
+}
+
+#pic8{
+    animation-name: anime8;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 14s;
+    padding: 1.5px;
+}
+
+#pic9{
+    animation-name: anime9;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 14s;
+    padding: 1.5px;
+}
+
+#pic10{
+    animation-name: anime10;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 14s;
+    padding: 1.5px;
+}
+
+#pic11{
+    animation-name: anime11;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 18s;
+    padding: 1.5px;
+}
+
+#pic12{
+    animation-name: anime12;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 18s;
+    padding: 1.5px;
+}
+
+#pic13{
+    animation-name: anime13;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 18s;
+    padding: 1.5px;
+}
+
+#pic14{
+    animation-name: anime14;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 30s;
+    padding: 1.5px;
+}
+
+#pic15{
+    animation-name: anime15;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 30s;
+    padding: 1.5px;
+}
+
+#pic16{
+    animation-name: anime16;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 30s;
+    padding: 1.5px;
+}
+
+#pic17{
+    animation-name: anime17;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 30s;
+    padding: 1.5px;
+}
+
+#pic18{
+    animation-name: anime18;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 30s;
+    padding: 1.5px;
+}
+
+@keyframes anime1 {
+    0%{
+        opacity: 1;
+        top: -50%;
+        left: 50%;
+        rotate: 30deg;
+    }
+    70%{
+        opacity: 1;
+        top: 35%;
+        left: 5%;
+        rotate: 360deg;
+    }
+    100%{
+        top: 35%;
+        left: 5%;
+        opacity: 0;
+        rotate: 360deg;
+        box-shadow: 2px 2px 10px yellow , -2px -2px 10px yellow;
+    }
+}
+
+@keyframes anime2 {
+    0%{
+        opacity: 1;
+        top: -50%;
+        left: 20%;
+        rotate: 30deg;
+    }
+    70%{
+        opacity: 1;
+        top: 49%;
+        left: 5%;
+        rotate: 360deg;
+    }
+    100%{
+        top: 49%;
+        left: 5%;
+        opacity: 0;
+        rotate: 360deg;
+        box-shadow: 2px 2px 10px yellow , -2px -2px 10px yellow;
+    }
+}
+
+@keyframes anime3 {
+    0%{
+        opacity: 1;
+        top: -50%;
+        left: -20%;
+        rotate: 30deg;
+    }
+    70%{
+        opacity: 1;
+        top: 42%;
+        left: 13%;
+        rotate: 360deg;
+    }
+    100%{
+        top: 42%;
+        left: 13%;
+        opacity: 0;
+        rotate: 360deg;
+        box-shadow: 2px 2px 10px yellow , -2px -2px 10px yellow;
+    }
+}
+
+@keyframes anime4 {
+    0%{
+        opacity: 1;
+        top: -20%;
+        left: 70%;
+        rotate: 30deg;
+    }
+    20%{
+        top: 25%;
+        left: 10%;
+        rotate: -50deg;
+    }
+    40%{
+        top: 50%;
+        left: 90%;
+        rotate: 60deg;
+    }
+    60%{
+        top: 60%;
+        left: 53%;
+        opacity: 1;
+        rotate: 0deg;
+    }
+    100%{
+        top: 60%;
+        left: 53%;
+        opacity: 0;
+        box-shadow: 2px 2px 10px yellow , -2px -2px 10px yellow;
+        rotate: 0deg;
+    }
+}
+
+@keyframes anime5 {
+    0%{
+        opacity: 1;
+        top: 80%;
+        left: 120%;
+        rotate: 30deg;
+    }
+    50%{
+        opacity: 1;
+        top: 76%;
+        left: 58%;
+        rotate: 360deg;
+    }
+    100%{
+        top: 76%;
+        left: 58%;
+        opacity: 0;
+        box-shadow: 2px 2px 10px yellow , -2px -2px 10px yellow;
+        rotate: 360deg;
+    }
+}
+
+@keyframes anime6 {
+    0%{
+        opacity: 1;
+        top: -20%;
+        left: 30%;
+        rotate: 30deg;
+    }
+    50%{
+        opacity: 1;
+        top: 74%;
+        left: 50%;
+        rotate: 360deg;
+    }
+    100%{
+        top: 74%;
+        left: 50%;
+        opacity: 0;
+        box-shadow: 2px 2px 10px yellow , -2px -2px 10px yellow;
+        rotate: 360deg;
+
+    }
+}
+
+@keyframes anime7 {
+    0%{
+        opacity: 1;
+        top: -20%;
+        left: 40%;
+        rotate: 30deg;
+    }
+    30%{
+        opacity: 1;
+        top: 30%;
+        left: 80%;
+        rotate: 250deg;
+    }
+    60%{
+        top: 58%;
+        left: 45%;
+        opacity: 1;
+        rotate: 360deg;
+    }
+    100%{
+        top: 58%;
+        left: 45%;
+        opacity: 0;
+        box-shadow: 2px 2px 10px yellow , -2px -2px 10px yellow;
+        rotate: 360deg;
+    }
+}
+
+@keyframes anime8 {
+    0%{
+        opacity: 1;
+        top: -20%;
+        left: 60%;
+        rotate: 50deg;
+    }
+    20%{
+        opacity: 1;
+        top: 30%;
+        left: 83%;
+        rotate: 0deg;
+    }
+    100%{
+        top: 30%;
+        left: 83%;
+        opacity: 0;
+        box-shadow: 2px 2px 10px yellow , -2px -2px 10px yellow;
+        rotate: 0deg;
+    }
+}
+
+@keyframes anime9 {
+    0%{
+        opacity: 1;
+        top: 40%;
+        left: 120%;
+        rotate: 30deg;
+    }
+    40%{
+        opacity: 1;
+        top: 46%;
+        left: 80%;
+        rotate: 360deg;
+    }
+    100%{
+        top: 46%;
+        left: 80%;
+        opacity: 0;
+        box-shadow: 2px 2px 10px yellow , -2px -2px 10px yellow;
+        rotate: 360deg;
+    }
+}
+
+@keyframes anime10 {
+    0%{
+        opacity: 1;
+        top: -20%;
+        left: 120%;
+        rotate: 30deg;
+    }
+    50%{
+        opacity: 1;
+        top: 43%;
+        left: 88%;
+        rotate: 360deg;
+    }
+    100%{
+        top: 43%;
+        left: 88%;
+        opacity: 0;
+        box-shadow: 2px 2px 10px yellow , -2px -2px 10px yellow;
+        rotate: 360deg;
+    }
+}
+
+@keyframes anime11 {
+    0%{
+        opacity: 1;
+        top: -20%;
+        left: 10%;
+        rotate: 60deg;
+    }
+    30%{
+        opacity: 1;
+        top: 60%;
+        left: 20%;
+        rotate: 0deg;
+    }
+    100%{
+        top: 60%;
+        left: 20%;
+        opacity: 0;
+        box-shadow: 2px 2px 10px yellow , -2px -2px 10px yellow;
+        rotate: 0deg;
+    }
+}
+
+@keyframes anime12 {
+    0%{
+        opacity: 1;
+        top: 40%;
+        left: -20%;
+        rotate: 30deg;
+    }
+    30%{
+        opacity: 1;
+        top: 65%;
+        left: 28%;
+        rotate: 0deg;
+    }
+    100%{
+        top: 65%;
+        left: 28%;
+        opacity: 0;
+        box-shadow: 2px 2px 10px yellow , -2px -2px 10px yellow;
+        rotate: 0deg;
+    }
+}
+
+@keyframes anime13 {
+    0%{
+        opacity: 1;
+        top: -20%;
+        left: 80%;
+        rotate: 30deg;
+    }
+    15%{
+        opacity: 1;
+        top: 43%;
+        left: 88%;
+        rotate: 360deg;
+    }
+    30%{
+        opacity: 1;
+        top: 70%;
+        left: 36%;
+        rotate: 0deg;
+    }
+    100%{
+        top: 70%;
+        left: 36%;
+        opacity: 0;
+        box-shadow: 2px 2px 10px yellow , -2px -2px 10px yellow;
+        rotate: 0deg;
+    }
+}
+
+@keyframes anime14 {
+    0%{
+        opacity: 1;
+        top: -20%;
+        left: 30%;
+        rotate: -30deg;
+    }
+    20%{
+        top: 60%;
+        left: 15%;
+        rotate: 0deg;
+    }
+    35%{
+        opacity: 1;
+        top: 70%;
+        left: 80%;
+    }
+    100%{
+        top: 70%;
+        left: 80%;
+        opacity: 0;
+        box-shadow: 2px 2px 10px yellow , -2px -2px 10px yellow;
+    }
+}
+
+@keyframes anime15 {
+    0%{
+        opacity: 1;
+        top: -20%;
+        left: 70%;
+        rotate: 30deg;
+    }
+    20%{
+        top: 30%;
+        left: 92%;
+        rotate: 60deg;
+    }
+    30%{
+        opacity: 1;
+        top: 58%;
+        left: 85%;
+        rotate: 0deg;
+    }
+    100%{
+        top: 58%;
+        left: 85%;
+        opacity: 0;
+        box-shadow: 2px 2px 10px yellow , -2px -2px 10px yellow;
+    }
+}
+
+@keyframes anime16 {
+    0%{
+        opacity: 1;
+        top: -20%;
+        left: 50%;
+        rotate: 30deg;
+    }
+    20%{
+        top: 30%;
+        left: 90%;
+        rotate: 60deg;
+    }
+    30%{
+        opacity: 1;
+        top: 54%;
+        left: 76%;
+        rotate: 0deg;
+    }
+    100%{
+        top: 54%;
+        left: 76%;
+        opacity: 0;
+        box-shadow: 2px 2px 10px yellow , -2px -2px 10px yellow;
+    }
+}
+
+@keyframes anime17 {
+    0%{
+        opacity: 1;
+        top: -20%;
+        left: 87%;
+        rotate: 30deg;
+    }
+    20%{
+        top: 28%;
+        left: 88%;
+        rotate: 60deg;
+    }
+    30%{
+        opacity: 1;
+        top: 67%;
+        left: 72%;
+        rotate: 0deg;
+    }
+    100%{
+        top: 67%;
+        left: 72%;
+        opacity: 0;
+        box-shadow: 2px 2px 10px yellow , -2px -2px 10px yellow;
+    }
+}
+
+@keyframes anime18 {
+    0%{
+        opacity: 1;
+        top: 80%;
+        left: 120%;
+        rotate: 0deg;
+    }
+    40%{
+        opacity: 1;
+        top: 52.5%;
+        left: 67.5%;
+    }
+    100%{
+        top: 52.5%;
+        left: 67.5%;
+        opacity: 0;
+        box-shadow: 2px 2px 10px yellow , -2px -2px 10px yellow;
+    }
+}
